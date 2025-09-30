@@ -66,6 +66,12 @@ vim.o.splitbelow = true
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
+-- Tab-instellingen zoals VS Code
+vim.o.tabstop = 4 -- Hoe breed een tabkarakter wordt weergegeven
+vim.o.shiftwidth = 4 -- Hoeveel spaties per inspringniveau
+vim.o.softtabstop = 4 -- Hoeveel spaties je krijgt bij tab-toets
+vim.o.expandtab = true -- Zet tabs om naar spaties
+
 -- Preview substitutions live, as you type!
 vim.o.inccommand = 'split'
 
